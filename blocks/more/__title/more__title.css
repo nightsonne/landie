@@ -1,0 +1,13 @@
+.more__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #091133;
+}
+
+@media screen and (max-width: 768px) {
+  .more__title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

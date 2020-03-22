@@ -1,0 +1,43 @@
+@import url('../header/__top/header__top.css');
+@import url('../header/__lead/header__lead.css');
+@import url('../header/__brand/header__brand.css');
+@import url('../header/__lead-text/header__lead-text.css');
+@import url('../header/__lead-title/header__lead-title.css');
+@import url('../header/__lead-buttons/header__lead-buttons.css');
+
+
+
+
+.header {
+  width: 100%;
+  max-width: 1440px;
+  height: 1103px;
+  background-image: url(../../static/images/designer_1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  padding-left: 11.5%;
+  padding-right: 11.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    background-size: 70%;
+    background-position: top right;
+    height: 780px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-image: none;
+    background-color: rgba(231, 236, 255, 0.5);
+    height: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    height: 680px;
+  }
+}

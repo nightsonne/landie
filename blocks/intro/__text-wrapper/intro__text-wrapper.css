@@ -1,0 +1,34 @@
+.intro__text-wrapper {
+  margin: 11.1% 0 0 0;
+  min-width: 535px;
+  width: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .intro__text-wrapper {
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text-wrapper {
+    margin-top: 20px;
+    min-width: 525px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .intro__text-wrapper {
+    min-width: 100%;
+  }
+}
+
+.intro__text-wrapper .more:nth-child(4) {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .intro__text-wrapper .more:nth-child(5) {
+    margin: 0;
+  }
+}

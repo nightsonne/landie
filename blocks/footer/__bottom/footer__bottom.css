@@ -1,0 +1,13 @@
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  height: 76px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__bottom {
+    height: 100px;
+    }
+} 

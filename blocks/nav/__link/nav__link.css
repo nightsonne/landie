@@ -1,0 +1,10 @@
+.nav__link {
+  text-decoration: none;
+  transition: color 0.2s linear;
+  box-shadow: none;
+
+}
+
+.nav__menu-item:hover .nav__link {
+  color: #ff6584;
+}

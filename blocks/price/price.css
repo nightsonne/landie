@@ -1,0 +1,39 @@
+@import url('../price/__img/price__img.css');
+@import url('../price/__text-wrapper/price__text-wrapper.css');
+@import url('../price/__text/price__text.css');
+@import url('../price/__summ/price__summ.css');
+@import url('../price/__button-text/price__button-text.css');
+
+.price {
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+  background-image: url('../../static/images/Rectangle.png');
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+  position: relative;
+  margin-top: 11.3%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .price {
+    background-image: none;
+    background-color: rgba(231, 236, 255, 0.5);
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .price {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .price {
+    margin-top: 86px;
+  }
+}

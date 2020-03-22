@@ -1,0 +1,13 @@
+.more__text {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #5d6970;
+}
+
+@media screen and (max-width: 768px) {
+  .more__text {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

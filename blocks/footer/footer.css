@@ -1,0 +1,22 @@
+@import url('../footer/__top/footer__top.css');
+@import url('../footer/__brand/footer__brand.css');
+@import url('../footer/__copyright/footer__copyright.css');
+@import url('../footer/__bottom/footer__bottom.css');
+@import url('../footer/__social/footer__social.css');
+@import url('../footer/__social-link/footer__social-link.css');
+@import url('../footer/__social-item/footer__social-item.css');
+
+.footer {
+  background-color: #e7ecff;
+  height: 216px;
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 11.5%;
+  padding-right: 11.5%;
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    height: 240px;
+    }
+} 

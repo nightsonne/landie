@@ -1,0 +1,19 @@
+.nav__menu {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+
+}
+
+@media screen and (max-width: 425px) {
+  .nav__menu {
+    flex-direction: column;
+  }
+}

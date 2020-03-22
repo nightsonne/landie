@@ -1,0 +1,13 @@
+.footer__brand {
+  color: #37447E;
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 900;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__brand {
+    margin: 0;
+  }
+}

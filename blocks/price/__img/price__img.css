@@ -1,0 +1,13 @@
+.price__img {
+  position: absolute;
+  top: -60px;
+  left: calc((100% - 73.6%)/2);
+  z-index: 0;
+  width: 73.6%;
+}
+
+@media screen and (max-width: 1250px) {
+  .price__img {
+    display: none;
+  }
+}

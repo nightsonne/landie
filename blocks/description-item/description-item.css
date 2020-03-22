@@ -1,0 +1,19 @@
+@import url('../description-item/__text-wrapper/description-item__text-wrapper.css');
+@import url('../description-item/__img/description-item__img.css');
+
+.description-item {
+  display: flex;
+  width: 100%;
+  max-width: 1103px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 15% 0;
+}
+
+@media screen and (max-width: 768px) {
+  .description-item {
+    flex-direction: column;
+    margin-top: 70px;
+  }
+}

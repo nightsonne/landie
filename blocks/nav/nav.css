@@ -1,0 +1,17 @@
+@import url('../../blocks/nav/__menu/nav__menu.css');
+@import url('../../blocks/nav/__menu-item/nav__menu-item.css');
+@import url('../../blocks/nav/__link/nav__link.css');
+
+.nav {
+  margin: auto 0;
+  max-width: 245px;
+  min-width: 170px;
+  width: 22%;
+  color: #505F98;
+}
+
+@media screen and (max-width: 425px) {
+  .nav {
+    min-width: 50px;
+  }
+}

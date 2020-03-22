@@ -1,0 +1,10 @@
+.footer__top {
+  margin: 0;
+  width: 100%;
+  max-width: 1110px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cdd1d4;
+}
